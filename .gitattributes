@@ -1,0 +1,11 @@
+# Ensure that text files have LF on check-in and CRLF on checkout
+*.cs text eol=crlf
+*.unity text eol=crlf
+*.prefab text eol=crlf
+*.json text eol=crlf
+*.md text eol=crlf
+
+# Binary files - do not modify line endings
+*.png binary
+*.jpg binary
+*.mat binary
